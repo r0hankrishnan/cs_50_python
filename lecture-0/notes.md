@@ -1,5 +1,5 @@
 # Lecture Notes -- Functions & Variables
- **Lecture 1 runs from 0:4:48 to 1:50:24**
+ **Lecture 0 runs from 0:4:48 to 1:50:24**
 
 ## Table of Contents
 1. [The Basics](#The-Basics)
