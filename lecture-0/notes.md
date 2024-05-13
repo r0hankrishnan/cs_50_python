@@ -10,7 +10,7 @@
 6. [Methods](#methods-)
 7. [Integers](#integers-)
 8. [Float](#float-)
-9. [Creating Custom Functions](#custom-)
+9. [Creating Custom Functions](#customize-)
 
 
  ## The Basics <a name="basics"></a>
@@ -65,7 +65,7 @@
 ## Float <a name="float"></a>
 - Number with a decimal point-- any real number
 
-## Creating Custom Functions <a name="custom"></a>
+## Creating Custom Functions <a name="customize"></a>
 - Use the keyword `def` to **create** your own function
     - Syntax: `def functionName():` and then define function by writing out process **indented** below
 - You can also pre-set a value for an `arg` in a function: `def: functionName(arg = "value")`
