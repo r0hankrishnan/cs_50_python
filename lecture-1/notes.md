@@ -48,4 +48,15 @@
 - Python supports several `int` operators:
     - +, -, *, /, %
         - % returns the remainder when dividing two `int` values
-        
+
+## Float
+- Number with a decimal point-- any real number
+
+## Creating Custom Functions
+- Use the keyword `def` to **create** your own function
+    - Syntax: `def functionName():` and then define function by writing out process **indented** below
+- You can also pre-set a value for an `arg` in a function: `def: functionName(arg = "value")`
+    - Can still be overwritten if new value is specified when function is called
+- *Note the python interpreter reads from **top to bottom** so you must **define** functions before actually calling them*
+- Scope: A variable stored within a function will only exist **within** that function
+- Another important keyword is `return` which can be used in functions to tell python that you want an action/value to be displayed or returned to the screen
