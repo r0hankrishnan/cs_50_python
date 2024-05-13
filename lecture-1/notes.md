@@ -1,13 +1,51 @@
 # Lecture Notes -- Functions & Variables
  
  ## The Basics
- - Python is a general purpose programming language
- - It is very popular and has "high-level" syntax
+- Python is a general purpose programming language
+- It is very popular and has "high-level" syntax
     - High-level = closer to human language
- - Python code is frequently written in a text editor
+- Python code is frequently written in a text editor
     - Using VS Code but can be anything (even MS Word if saved in the right format)
- - Computers can only read and execute *binary*, meaning that we need to install a program (called the **python interpreter**) to take our python code and convert it into binary
+- Computers can only read and execute *binary*, meaning that we need to install a program (called the **python interpreter**) to take our python code and convert it into binary
 
 ## Strings
- - 
+- Strings are a basic data type in python --> denoted by being surrounded by " "
+    - Strings can be anything as long as it is inside of the double (or single, just be consistent) quotes
 
+## Variables
+- Container for *some* value inside of your computer's memory
+- In python `=` is used to **assign** a value to a variable
+    - `name = input("what's your name?")` stores the answer to the question "what's your name?" into the variable `name`
+- You can update values of variables by writing a subsequent line of code with the `=` operator
+
+## Comments
+- It is important to **comment** your code so you and others can tell what you're trying to do
+    - Comment using `#` symbol on each line you want to write a comment 
+    - Try to comment every 2-3 lines of code to keep clean, readable code
+- **Psuedocode**: "Directions" written in common english as comments to map out what you want to do with your code
+
+## Functions & Parameters
+- Functions in python all have documentation
+    - Take the print() function for example:
+    `print(*objects, sep = ' ', end = '\n', file = sys.stdout, flush = False)`
+        - The * means that print() can take as many objects as you want
+        - `sep = ' '` specifies the separator between each object in print()
+        - `end = \n'` specifies what the computer should do at the end of the printed statements
+        - `sep`, `end` are examples of the **parameters** of a function -- values you can override/change to adjust the output of a function
+
+## Methods
+- **Methods** are functions that are specific to data types
+    - They are designed to be able to manipulate or perform actions on its data type
+    - Syntax: `variable.method()`
+        - Example: `name = input("Name?")`
+        `name = name.strip()` assigns a `str` to `name` and then uses a method `strip()` to remove whitespace from the left and right of `name`
+- You can chain methods together-- be careful that your code remains balanced between concisesness and clarity
+    -Example: `name = name.strip().title()`
+
+## Integers
+- Another basic and very common data type in python
+- Any whole number from positive to negative infinity
+- Python supports several `int` operators:
+    - +, -, *, /, %
+        - % returns the remainder when dividing two `int` values
+        
