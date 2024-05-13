@@ -14,3 +14,6 @@ print("hello,", name)
 
 #Output a message that tells you your first and last name
 print("Your first name is", first, "and your last name is", last)
+
+#Output the hello, name message using an f string
+print(f"hello, {name}")
