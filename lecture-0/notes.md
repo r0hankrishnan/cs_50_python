@@ -7,7 +7,7 @@
 3. [Variables](#variables-)
 4. [Comments](#comments-)
 5. [Functions & Parameters](#functions-)
-6. [Methods](#methods-)
+6. [Methods](#methods)
 7. [Integers](#integers-)
 8. [Float](#float-)
 9. [Creating Custom Functions](#customize-)
