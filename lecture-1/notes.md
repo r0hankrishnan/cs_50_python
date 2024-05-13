@@ -1,6 +1,19 @@
 # Lecture Notes -- Functions & Variables
- 
- ## The Basics
+ **Lecture 1 runs from 0:4:48 to 1:50:24**
+
+## Table of Contents
+1. [The Basics](#The-Basics)
+2. [Strings](#Strings)
+3. [Variables](#Variables)
+4. [Comments](#Comments)
+5. [Functions & Parameters](#Functions-&-Parameters)
+6. [Methods](#Methods)
+7. [Integers](#Integers)
+8. [Float](#Float)
+9. [Creating Custom Functions](#Creating-Custom-Functions)
+
+
+ ## The Basics <a name="The Basics"></a>
 - Python is a general purpose programming language
 - It is very popular and has "high-level" syntax
     - High-level = closer to human language
@@ -8,23 +21,23 @@
     - Using VS Code but can be anything (even MS Word if saved in the right format)
 - Computers can only read and execute *binary*, meaning that we need to install a program (called the **python interpreter**) to take our python code and convert it into binary
 
-## Strings
+## Strings <a name="Strings"></a>
 - Strings are a basic data type in python --> denoted by being surrounded by " "
     - Strings can be anything as long as it is inside of the double (or single, just be consistent) quotes
 
-## Variables
+## Variables <a name="Variables"></a>
 - Container for *some* value inside of your computer's memory
 - In python `=` is used to **assign** a value to a variable
     - `name = input("what's your name?")` stores the answer to the question "what's your name?" into the variable `name`
 - You can update values of variables by writing a subsequent line of code with the `=` operator
 
-## Comments
+## Comments <a name="Comments"></a>
 - It is important to **comment** your code so you and others can tell what you're trying to do
     - Comment using `#` symbol on each line you want to write a comment 
     - Try to comment every 2-3 lines of code to keep clean, readable code
 - **Psuedocode**: "Directions" written in common english as comments to map out what you want to do with your code
 
-## Functions & Parameters
+## Functions & Parameters <a name="Functions & Parameters"></a>
 - Functions in python all have documentation
     - Take the print() function for example:
     `print(*objects, sep = ' ', end = '\n', file = sys.stdout, flush = False)`
@@ -33,7 +46,7 @@
         - `end = \n'` specifies what the computer should do at the end of the printed statements
         - `sep`, `end` are examples of the **parameters** of a function -- values you can override/change to adjust the output of a function
 
-## Methods
+## Methods <a name="Methods"></a>
 - **Methods** are functions that are specific to data types
     - They are designed to be able to manipulate or perform actions on its data type
     - Syntax: `variable.method()`
@@ -42,17 +55,17 @@
 - You can chain methods together-- be careful that your code remains balanced between concisesness and clarity
     -Example: `name = name.strip().title()`
 
-## Integers
+## Integers<a name="Integers"></a>
 - Another basic and very common data type in python
 - Any whole number from positive to negative infinity
 - Python supports several `int` operators:
     - +, -, *, /, %
         - % returns the remainder when dividing two `int` values
 
-## Float
+## Float <a name="Float"></a>
 - Number with a decimal point-- any real number
 
-## Creating Custom Functions
+## Creating Custom Functions <a name="Creating Custom Functions"></a>
 - Use the keyword `def` to **create** your own function
     - Syntax: `def functionName():` and then define function by writing out process **indented** below
 - You can also pre-set a value for an `arg` in a function: `def: functionName(arg = "value")`
