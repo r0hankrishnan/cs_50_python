@@ -3,7 +3,7 @@
 
 ## Table of Contents
 1. [The Basics](#The-Basics)
-2. [Strings](#Strings)
+2. [Strings](#strings-)
 3. [Variables](#Variables)
 4. [Comments](#Comments)
 5. [Functions & Parameters](#Functions-&-Parameters)
