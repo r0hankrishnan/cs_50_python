@@ -46,7 +46,7 @@
         - `end = \n'` specifies what the computer should do at the end of the printed statements
         - `sep`, `end` are examples of the **parameters** of a function -- values you can override/change to adjust the output of a function
 
-## Methods <a name="methods"></a>
+## Methods 
 - **Methods** are functions that are specific to data types
     - They are designed to be able to manipulate or perform actions on its data type
     - Syntax: `variable.method()`
