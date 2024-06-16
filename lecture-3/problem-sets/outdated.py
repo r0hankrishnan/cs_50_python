@@ -23,17 +23,12 @@ months = [
 monthsDict = {}
 
 
-print(months.index("March") + 1)
+months.index("March") + 1
 
-# val = 0
-# for i in months:
-#     val = val + 1
-#     monthsDict[i] = val
+val = 0
+for i in months:
+    val = val + 1
+    monthsDict[i] = val
 
 
-# date = input("Date: ")
-
-# if date.isdigit():
-#     print("//")
-# else:
-    # print(date)
+date = input("Date: ").split("/")
