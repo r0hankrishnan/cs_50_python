@@ -3,7 +3,7 @@
 #output same date in YYYY-MM-DD format
 #if input not valid, prmpt again
 #don't need to validate that dates align as
-# long as it is less than 31
+#long as it is less than 31
 
 months = [
     "January",
@@ -20,15 +20,19 @@ months = [
     "December"
 ]
 
-monthsDict = {}
-
-
-months.index("March") + 1
-
-val = 0
-for i in months:
-    val = val + 1
-    monthsDict[i] = val
-
-
-date = input("Date: ").split("/")
+while True:
+    date = input("Date: ")
+    try:
+        if "/" in date:
+            mm,dd,yyyy = date.split("/")
+        elif "," in date:
+            mmdd, yyyy = date.split(", ")
+            mm, dd = mmdd.split(" ")
+            mm = (months.index(mm)) + 1
+        if int(mm) > 12 or int(dd) > 31:
+            raise ValueError
+    except (AttributeError, ValueError, NameError, KeyError):
+        pass
+    else:
+        print(f"{int(yyyy)}-{int(mm):02}-{int(dd):02}")
+        break
