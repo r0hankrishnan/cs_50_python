@@ -7,5 +7,9 @@ Below is a description of the topics of each week and a link to the problem sets
 
 |Week|Topic|
 |----|-----|
-
+|1| |
+|2| |
+|3| |
+|4| |
+|5| |
 **Problem sets link: https://cs50.harvard.edu/python/2022/psets/**
